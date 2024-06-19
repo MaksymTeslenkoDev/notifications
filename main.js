@@ -9,7 +9,7 @@ const http = require('./src/http.js');
 const ws = require('./src/ws.js');
 const { loadApplication } = require('./src/loader.js');
 
-const APPLICATION_PATH = path.join(process.cwd(), '../NodeJS-Application');
+const APPLICATION_PATH = path.join(process.cwd(), '../notifications');
 const LOG_FOLDER_PATH = './log';
 
 (async () => {

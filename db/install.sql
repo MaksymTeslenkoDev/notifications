@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS notifications;
+DROP USER IF EXISTS marcus;
+CREATE USER marcus WITH PASSWORD 'marcus';
+CREATE DATABASE notifications OWNER marcus;
